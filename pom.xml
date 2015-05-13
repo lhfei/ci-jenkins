@@ -165,13 +165,6 @@
 							</goals>
 						</execution>
 					</executions>
-					<reportSets>
-						<reportSet>
-							<reports>
-								<report>cobertura</report>
-							</reports>
-						</reportSet>
-					</reportSets>
 				</plugin>
 
 				<plugin>
