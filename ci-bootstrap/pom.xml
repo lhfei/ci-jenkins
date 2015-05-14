@@ -116,7 +116,7 @@
 				<version>2.2</version>
 				<configuration>
 					<server>tomcat8</server>
-					<url>http://localhost:8181/manager/text</url>
+					<url>http://localhost:8089/manager/text</url>
 				</configuration>
 			</plugin>
 		</plugins>
