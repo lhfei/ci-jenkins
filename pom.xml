@@ -216,6 +216,16 @@
 						</reportPlugins>
 					</configuration>
 				</plugin>
+				
+				<plugin>
+					<groupId>org.apache.tomcat.maven</groupId>
+					<artifactId>tomcat7-maven-plugin</artifactId>
+					<version>2.2</version>
+					<configuration>
+						<server>tomcat8</server>
+						<url>http://localhost:8181/manager/text</url>
+					</configuration>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
