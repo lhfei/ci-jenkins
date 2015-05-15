@@ -115,8 +115,8 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<server>tomcat8</server>
-					<url>http://202.204.122.250/:8089/manager/text</url>
+					<server>${server.id}</server>
+					<url>${server.utl}</url>
 				</configuration>
 			</plugin>
 		</plugins>
